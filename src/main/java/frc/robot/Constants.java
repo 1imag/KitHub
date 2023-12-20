@@ -13,7 +13,24 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+  public static class Drivetrain {
+    public static final int LEFT_MOTOR_0_ID = -1; //TOBO: Get Device ID
+    public static final int LEFT_MOTOR_1_ID = -1; //TOBO: Get Device ID
+    public static final int RIGHT_MOTOR_0_ID = -1; //TOBO: Get Device ID
+    public static final int RIGHT_MOTOR_1_ID = -1; //TOBO: Get Device ID
+
+    public static final double TRACK_WIDTH = -1.0; // todo get track width
+
+    public static final double LEFT_KP = -1.0; // todo tune left kp
+    public static final double RIGHT_KP = -1.0; // todo tune right kp
+
+    public static final double wheelDiameter = -1.0; // todo: get wheel diameter
+    public static final double gearratio = -1.0/0; // todo get gear ratio
+
+  }
+  //balls
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
   }
+
 }
